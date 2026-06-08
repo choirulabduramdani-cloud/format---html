@@ -4,7 +4,13 @@
 <style>
     body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #3b82f6; 
+    background: linear-gradient(
+        135deg, 
+        #fca5c6 0%, 
+        #ffebb3 45%, 
+        #a6e3e9 75%, 
+        #71c9ce 100%
+    ); 
     color: #ffffff; 
     margin: 0;
     padding: 20px;
@@ -13,7 +19,9 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-}
+    box-sizing: border-box; 
+    }
+    
 
     h1, h2, h3 {
     color: #0284c7;
@@ -84,9 +92,12 @@ ul {
     <!-- Judul -->
     <h1>Profil Diri</h1>
 
-    <!-- Gambar Foto Diri -->
-    <img src="fotoprofil.jpg" alt="Foto Diri" width="200">
-
+    <!-- Bagian Foto Diri dengan Hiasan Emoji di Sekelilingnya -->
+<div style="text-align: center; font-size: 1.8rem; margin: 20px 0;">
+    <img src="foto-saya.jpg" alt="Foto Diri">
+    🥷🥷
+</div>
+    
     <!-- Paragraf Deskripsi Diri -->
     <p>
         Halo, nama saya Choirul Abdu Ramdani. Saya adalah seorang pelajar dari SMKS Kesehatan 
